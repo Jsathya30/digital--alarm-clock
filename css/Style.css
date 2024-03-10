@@ -1,0 +1,69 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+/* .container{ */
+	/* width:80%; */
+	/* margin:auto; */
+	/* padding:5rem 3rem 2rem 25rem; */
+/* } */
+.row{
+	/* height:40vh; */
+	/* width:50%; */
+	border:5px solid grey;
+	/* border-top-left-radius:30px; */
+	/* border-bottom-right-radius:30px; */
+	
+}
+#clockpic{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	/* padding-bottom:10px; */
+	/* width:35%; */
+	/* height:35%; */
+}
+#clock{
+	/* font-size:30px; */
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	color:violet;
+	font-weight:650;
+}
+.controls{
+	/* padding:12px 15px; */
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	
+}
+.controls button{
+	/* padding:8px; */
+	border:none;
+	border-radius:10px;
+	color:#fff;
+	margin-left:5px;
+	cursor:pointer;
+}
+.set-alarm{
+	background-color:rgb(0, 255, 0);
+}
+.stop-alarm{
+	background-color:red;
+}
+.controls button:hover{
+	/* transform:linear; */
+	background-color:violet;
+	color:#000;
+	border:1px solid violet;
+}
+/* #date{ */
+	/* padding:5px 10px; */
+	/* font-size:15px; */
+	/* color:violet; */
+	/* font-weight:650; */
+	
+	/* margin-left:50px; */
+/* } */
